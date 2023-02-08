@@ -29,7 +29,7 @@ html {
 }
 
 .discounts {
-  display: block;
+  display: none;
 
 }
 
@@ -41,6 +41,6 @@ html {
 
 @media screen and (min-width: 600px) {
   .discounts {
-    display: none;
+    display: block;
   }
 }
