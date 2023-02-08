@@ -29,12 +29,13 @@ html {
 }
 
 .discounts {
-  display: none;
+  visibility: hidden;
 
 }
 
 @media screen and (min-width: 600px) {
   .discounts {
-    display: block;
+    display: visible;
   }
 }
+
